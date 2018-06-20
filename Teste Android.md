@@ -7,7 +7,7 @@ Em uma tela terá um formulário dinâmico com alguns campos predefinidos, confo
 
 Na segunda tela terá o detalhe de um ativo financeiro. As informações devem ser consumidas através do link ([https://floating-mountain-50292.herokuapp.com/fund.json](https://floating-mountain-50292.herokuapp.com/fund.json)).
 
-O visual do aplicativo está nesse arquivo [telas.png](https://github.com/joaooomarcos/TesteAccenture/blob/master/telas.png) e em [nesse outro](https://github.com/joaooomarcos/TesteAccenture/blob/master/teste_app.sketch) o do [Sketch](https://www.sketchapp.com) (30 dias grátis, caso não tenha a licença).
+O visual do aplicativo está nesse arquivo [telas.png](https://github.com/joaooomarcos/TesteAccenture/blob/master/telas.png) e [nesse outro](https://github.com/joaooomarcos/TesteAccenture/blob/master/teste_app.sketch) o do [Sketch](https://www.sketchapp.com) (30 dias grátis, caso não tenha a licença).
 
 ![Image](https://floating-mountain-50292.herokuapp.com/telas.png)
 
