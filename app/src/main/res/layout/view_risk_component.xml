@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contraint_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/group_copy_10"
+        app:layout_constraintBottom_toTopOf="@+id/risk_1"
+        app:layout_constraintEnd_toEndOf="@+id/risk_1"
+        app:layout_constraintStart_toStartOf="@+id/risk_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/risk_1"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/background_risk_left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/risk_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/risk_2"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/dark_mint"
+        android:layout_marginStart="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/risk_3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/risk_1" />
+
+    <View
+        android:id="@+id/risk_3"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="3dp"
+        android:background="@color/sunflower"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/risk_4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/risk_2" />
+
+    <View
+        android:id="@+id/risk_4"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="3dp"
+        android:background="@color/orangish"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/risk_5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/risk_3" />
+
+    <View
+        android:id="@+id/risk_5"
+        android:layout_width="0dp"
+        android:layout_height="5dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="3dp"
+        android:background="@drawable/background_risk_right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/risk_4" />
+
+
+</android.support.constraint.ConstraintLayout>

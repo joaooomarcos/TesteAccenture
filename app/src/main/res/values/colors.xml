@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#da0101</color>
+    <color name="colorPrimaryDark">#da0101</color>
+    <color name="colorAccent">#da0101</color>
+
+    <color name="red">#da0101</color>
+    <color name="dark_peach">#eb7676</color>
+    <color name="white">#fff</color>
+    <color name="silver_chalice">#ACACAC</color>
+    <color name="guardsma_red">#C80504</color>
+    <color name="mine_shaft">#333333</color>
+    <color name="gray">#7E7E7E</color>
+
+    <color name="fresh_green">#74da61</color>
+    <color name="dark_mint">#4ac16c</color>
+    <color name="sunflower">#ffc011</color>
+    <color name="orangish">#ff742c</color>
+    <color name="orangey_red">#ff3634</color>
+</resources>
